@@ -1,0 +1,36 @@
+body{
+ font-family: 'Oswald', sans-serif;
+}
+.navh1{
+    font-family: 'Lobster', cursive;
+}
+.bg-pink {
+  background-color: #660066;
+}
+header {
+  background-image: url('../img/bg_hero.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  padding-bottom: 10rem;
+}
+.tamtitulo{
+  display: 1;
+}
+
+/*  baja los botones de carrusel*/
+.carousel-indicators {
+  bottom: -50px;
+}
+
+/* deja redondos los indicadores de carrusel */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color:grey;
+}
+
+.carousel-indicators li.active{
+  background-color:pink;
+}
