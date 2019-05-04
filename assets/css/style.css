@@ -1,8 +1,8 @@
 body{
- font-family: 'Oswald', sans-serif;
+ font-family: 'Lobster', cursive;
 }
-.navh1{
-    font-family: 'Lobster', cursive;
+h1 , h2 , h5{
+    font-family: 'Oswald', sans-serif;
 }
 .bg-pink {
   background-color: #660066;
